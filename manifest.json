@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+
+	"name": "deurchin",
+	"description": "Remove urchin tracking parameters",
+	"version": "0.1",
+
+	"background": {
+		"scripts": [
+			"deurchin.js"
+		]
+	},
+
+	"permissions": [
+		"webRequest",
+		"webRequestBlocking",
+		"*://*/*"
+	]
+}
